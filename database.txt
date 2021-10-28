@@ -1,0 +1,1 @@
+{"user":{"firstName":"Marius","lastName":"Bolboaca","facturalNumber":0,"phone":"0745701801","address":"Calea Turzii Nr 241E","city":"Cluj-Napoca","country":"Romania"},"client":{"clientInformation":{},"taskInformation":{}}}
