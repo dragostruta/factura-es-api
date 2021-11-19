@@ -2,8 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const pdf = require("html-pdf");
 const app = express();
-const port = 3001;
-// const port = process.env.PORT;
+const port = process.env.PORT;
 const fs = require("fs");
 
 app.use(express.json());
