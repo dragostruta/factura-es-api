@@ -116,17 +116,23 @@ module.exports = ({ user, client }) => {
               <td></td>
             </tr>
             <tr>
-              <td class="subtitle">${client.clientInformation?.name ?? ""}</td>
+              <td class="subtitle" style="font-weight: bold">${
+                client.clientInformation?.name ?? ""
+              }</td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td class="subtitle">${client.clientInformation?.phone ?? ""}</td>
+              <td class="subtitle" style="font-weight: bold">Teléfono: ${
+                client.clientInformation?.phone ?? ""
+              }</td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td class="subtitle">${client.clientInformation?.mobile ?? ""}</td>
+              <td class="subtitle" style="font-weight: bold">Móvil: ${
+                client.clientInformation?.mobile ?? ""
+              }</td>
               <td></td>
               <td></td>
             </tr>
